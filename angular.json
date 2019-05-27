@@ -23,6 +23,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/mustard-ui/dist/css/mustard-ui.min.css",
               "src/styles.css"
             ],
             "scripts": []

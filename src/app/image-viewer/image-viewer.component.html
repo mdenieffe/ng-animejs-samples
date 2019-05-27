@@ -1,0 +1,5 @@
+<div class="row">
+  <div *ngFor="let image of images; let i = index" class="col-1">
+    <img [src]="image" (mouseover)="onSelect(i)" class="thumbnail-{{i}}">
+  </div>
+</div>
