@@ -1,0 +1,9 @@
+div {
+   height: 100%;
+   overflow: hidden; 
+}
+
+div .content-item {
+    padding: 0px;
+    margin: 0px;
+} 
