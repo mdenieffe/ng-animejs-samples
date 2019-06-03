@@ -11,11 +11,11 @@ import { interval, Subject } from 'rxjs';
 import { map, takeUntil } from 'rxjs/operators';
 
 @Component({
-    selector: 'app-rotation',
-    templateUrl: './rotation.component.html',
-    styleUrls: ['./rotation.component.css'],
+    selector: 'app-message-rotator',
+    templateUrl: './message-rotator.component.html',
+    styleUrls: ['./message-rotator.component.css']
 })
-export class RotationComponent implements OnInit, AfterViewInit, OnDestroy {
+export class MessageRotatorComponent implements OnInit, AfterViewInit, OnDestroy {
     readonly initialIndex = 0;
 
     readonly messages = [
